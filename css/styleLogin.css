@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353F;
+    font-family:  sans-serif;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: #17a2b8;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+    
+}
+input::placeholder{
+    color: #ced4da !important;
+}
+a{
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+  color: #fff;
+}
